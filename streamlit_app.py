@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 LOCAL_PATHS = {
-    "Produto": r"C:\Users\agroicone\Documents\ProjetosPy\PROAGRO\df_produto_proagro.csv",
-    "Estado (UF)": r"C:\Users\agroicone\Documents\ProjetosPy\PROAGRO\df_UF_proagro.csv"
+    "Produto": r"df_produto_proagro.csv",
+    "Estado (UF)": r"df_UF_proagro.csv"
 }
 
 def load_data(groupby_option):
